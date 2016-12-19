@@ -1,0 +1,12 @@
+[user]
+	name = Swati Singhi
+	email = swatisinghi89@gmail.com
+[alias]
+	st = status
+	co = checkout
+
+[commit]
+	template = /Users/swati/gitmesg.txt
+
+[diff]
+	tool = meld
