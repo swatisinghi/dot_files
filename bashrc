@@ -9,6 +9,7 @@ HISTCONTROL=ignoredups
 # Increase the history length
 HISTFILESIZE=2000
 
+source ~/.git-prompt.sh
 export PS1='\[\033[01;32m\]\h\[\033[01;34m\] \w\[\033[31m\]$(__git_ps1 "(%s)") \[\033[01;34m\]$\[\033[00m\] '
 
 #  Color output of the following commands
